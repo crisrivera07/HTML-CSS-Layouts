@@ -1,1 +1,1 @@
-# HTML-CSS-Layouts
+I want to become more familiar with the Box Model, Flexbox, and CSS grid, so I can build out complex and elegant layouts. This repository will contain different layouts that you may have seen in other websites. The whole idea here is to really practice at creating those common layouts as well as building on my skills to create new layouts and becomre more creative when designing websites for people to enjoy! 
