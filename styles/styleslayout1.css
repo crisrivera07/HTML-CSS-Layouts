@@ -7,15 +7,15 @@
 
 .hcontainer {
   background-color: rgb(81, 114, 187);
+  padding: 20px 0;
   display: flex;
   justify-content: center;
 }
 
 .hmenu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 900px;
-  height: 65px;
   border: solid black;
 }
 
@@ -23,19 +23,27 @@
   color: whitesmoke;
 }
 
-.title {
+/*.title {
   display: flex;
   width: 300px;
   justify-content: flex-start;
   align-items: center;
-}
+}*/
 
-.infodate {
+/*.infodate {
   display: flex;
   width: 300px;
   justify-content: space-around;
   align-items: center;
+}*/
+
+.info {
+  margin-left:auto;
 }
+.date {
+  margin-left: 20px;
+}
+
 
 .hmenu-container {
   display: flex;
@@ -63,7 +71,7 @@
   justify-content: center;
   align-items: center;
   height: 300px;
-  width: 80px;
+  width: 100px;
   
 }
 
@@ -85,6 +93,89 @@
   justify-content: center;
   align-items: center;
   height: 300px;
-  width: 80px;
-  
+  width: 100px;
+}
+
+.middle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color:  aquamarine;
+}
+
+.first-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid red;
+  width: 215px;
+  height: 200px;
+}
+
+.middle-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid blue;
+  width: 215px;
+  height: 200px;
+}
+
+.third-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid orange;
+  width: 215px;
+  height: 200px;
+}
+
+.second-middle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: blue;
+}
+
+.fourth-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 215px;
+  border: solid white;
+}
+
+.fifth-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 215px;
+  border: solid yellow;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+
 }
